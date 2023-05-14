@@ -12,6 +12,9 @@ function App() {
         <p>
           React Github Deployment Application changes to verify  version 2
         </p>
+        <p>
+          React Github Deployment Application changes to verify  version 3
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
