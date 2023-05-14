@@ -1,31 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React Github Deployment Application
-        </p>
-        <p>
-          React Github Deployment Application changes to verify  version 2
-        </p>
-        <p>
-          React Github Deployment Application changes to verify  version 3
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <h1>App</h1>
+      <Footer/>
     </div>
-  );
+  )
 }
-
-export default App;
